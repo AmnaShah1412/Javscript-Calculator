@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" type="text/css" href="calculator.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Edu+NSW+ACT+Foundation:wght@400;500&family=Hind+Siliguri:wght@300&family=Hind+Vadodara&family=Josefin+Sans:wght@100&family=Lobster&display=swap" rel="stylesheet">
+<style type="text/css">
+	h1{
+
+
+	margin-left: 22%;
+	font-family: 'Lobster', cursive;
+
+}
+
+*{
+	font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+
+
+.input{
+
+
+	margin-top: 1%;
+	margin-left: 4%;
+	margin-bottom: 3%;
+}
+
+
+
+#v1{
+     text-align: justify;
+	padding: 0.5%;
+	font-size: large;
+	border-radius: 6px;
+	width: 24%;
+	color: #040bd4;
+	border: 2px solid #23024d;
+}
+#v2{
+
+
+	 text-align: justify;
+	 padding: 0.5%;
+	font-size: large;
+	border-radius: 6px;
+	width: 24%;
+	color: #040bd4;
+	border: 2px solid #23024d;
+}
+.div{
+    margin-bottom: 2%;
+	margin-left: 4%;
+}
+#one{
+             background-color: #d3a3e3;
+             border-radius: 10px;
+             font-size: larger;
+             padding: 1%;
+             border: none;
+             width: 6%;
+}
+#one:hover{
+
+	background-color: #cc43ca;
+}
+#two{
+
+        
+             background-color: yellowgreen;
+             border-radius: 10px;
+             font-size: larger;
+             padding: 1%;
+              border: none;
+               width: 6%;
+
+}
+#two:hover{
+
+	background-color: #30cf72;
+}
+#three{
+        background-color: #f07aee;
+             border-radius: 10px;
+             font-size: larger;
+             padding: 1%;
+              border: none;
+               width: 6%;
+}
+#three:hover{
+           background-color: #b04acf;
+}
+
+#four{
+        background-color: #1cd6c0;
+             border-radius: 10px;
+             font-size: larger;
+             padding: 1%;
+              border: none;
+               width: 6%;
+}
+#four:hover{
+
+	background-color:#159e8e ;
+}
+#five{
+        background-color: seagreen;
+             border-radius: 10px;
+             font-size: larger;
+             padding: 1%;
+              border: none;
+               width: 8%;
+}
+#five:hover{
+
+	background-color: #139e5f;
+}
+
+#six{
+        background-color: beige;
+             border-radius: 10px;
+             font-size: larger;
+             padding: 1%;
+              border: none;
+               width: 8%;
+}
+#six:hover{
+	background-color: #c0f0da;
+}
+
+#seven{
+        background-color: #ac3dd4;
+             border-radius: 10px;
+             font-size: larger;
+             padding: 1%;
+              border: none;
+               width: 8%;
+}
+#seven:hover{
+
+	background-color: #7b199e;
+}
+
+.sub{
+
+	margin-bottom: 2%;
+	margin-left: 4%;
+}
+
+#r1{
+             background-color: #d3a3e3;
+             border-radius: 10px;
+             font-size: larger;
+             padding: 1%;
+             border: none;
+              width: 8%;
+}
+#r1:hover{
+
+	background-color: #cc43ca;
+}
+#r2{
+
+        
+             background-color: yellowgreen;
+             border-radius: 10px;
+             font-size: larger;
+             padding: 1%;
+              border: none;
+               width: 8%;
+
+}
+#r2:hover{
+
+	background-color: #30cf72;
+}
+#r3{
+        background-color: #f07aee;
+             border-radius: 10px;
+             font-size: larger;
+             padding: 1%;
+              border: none;
+               width: 8%;
+}
+#r3:hover{
+           background-color: #b04acf;
+}
+
+#r4{
+        background-color: #1cd6c0;
+             border-radius: 10px;
+             font-size: larger;
+             padding: 1%;
+              border: none;
+               width: 8%;
+}
+#r4:hover{
+
+	background-color:#159e8e ;
+}
+#r5{
+        background-color: seagreen;
+             border-radius: 10px;
+             font-size: larger;
+             padding: 1%;
+              border: none;
+               width: 8%;
+}
+#r5:hover{
+
+	background-color: #139e5f;
+}
+
+#r6{
+        background-color: #d67031;
+             border-radius: 10px;
+             font-size: larger;
+             padding: 1%;
+              border: none;
+               width: 8%;
+}
+#r6:hover{
+	background-color: #09b3a2;
+}
+.suv{
+
+	margin-bottom: 2%;
+	margin-left: 4%;
+}
+
+#a1{
+             background-color: #d3a3e3;
+             border-radius: 10px;
+             font-size: larger;
+             padding: 1%;
+             border: none;
+             width: 8%;
+}
+#a1:hover{
+
+	background-color: #cc43ca;
+}
+#a2{
+
+        
+             background-color: yellowgreen;
+             border-radius: 10px;
+             font-size: larger;
+             padding: 1%;
+              border: none;
+              width: 8%;
+
+}
+#a2:hover{
+
+	background-color: #30cf72;
+}
+#a3{
+        background-color: #f07aee;
+             border-radius: 10px;
+             font-size: larger;
+             padding: 1%;
+              border: none;
+              width: 7%;
+}
+#a3:hover{
+           background-color: #b04acf;
+}
+
+#a4{
+        background-color: #1cd6c0;
+             border-radius: 10px;
+             font-size: larger;
+             padding: 1%;
+              border: none;
+              width: 7%;
+}
+#a4:hover{
+
+	background-color:#159e8e ;
+}
+#a5{
+        background-color: seagreen;
+             border-radius: 10px;
+             font-size: larger;
+             padding: 1%;
+              border: none;
+              width: 7%;
+}
+#a5:hover{
+
+	background-color: #139e5f;
+}
+
+#a6{
+        background-color: #eb4690;
+             border-radius: 10px;
+             font-size: larger;
+             padding: 1%;
+              border: none;
+}
+#a6:hover{
+     background-color: #a1084c;
+}
+
+</style>
+
+
+	<title>Calculator</title>
+</head>
+<body>
+
+    <h1>Calculator</h1>
+
+	<div class="input" style="width:90%;">
+
+
+	<input type="text" placeholder="Enter First value" id="v1">
+
+	<input type="text" placeholder="Enter Second value" id="v2">
+
+
+</div>
+
+
+    <div class="div" style="width:90%;">
+
+	<input type="submit" value="+" id="one" onclick="add()">
+	<input type="submit" value="-" id="two" onclick="subtract()">
+	<input type="submit" value="/" id="three" onclick="divide()">
+	<input type="submit" value="*"  id="four"   onclick="multiply()">
+	<input type="submit" value="Sqrt" id="five" onclick="Sqrt()">
+	<input type="submit" value="Cos" id="six" onclick="Cos()">
+	<input type="submit" value="sin" id="seven" onclick="sin()">
+</div>
+	<div class="sub" style="width:90%;">
+	<input type="submit" value="asin" id="r1" onclick="asin()">
+    <input type="submit" value="tan" id="r2" onclick="tan()">
+    <input type="submit" value="log" id="r3" onclick="log()">
+    <input type="submit" value="log10" id="r4" onclick="log10()">
+    <input type="submit" value="ceil" id="r5" onclick="ceil()">
+    <input type="submit" value="floor" id="r6" onclick="floor()">
+</div>
+    <div class="suv" style="width:90%;">
+    <input type="submit" value="fround" id="a1"  onclick="fround()">
+    <input type="submit" value="min" id="a2" onclick="Min()">
+    <input type="submit" value="max" id="a3" onclick="Max()">
+    <input type="submit" value="pow" id="a4"  onclick="pow()">
+    <input type="submit" value="area" id="a5" onclick="area()">
+    <input type="submit" value="Circumference" id="a6" onclick="Circum()">
+</div>
+
+<script type="text/javascript">
+		
+		function add(){
+
+
+		var a=document.getElementById('v1').value;
+		var b=document.getElementById('v2').value;
+		var c= +a + +b;
+		 document.write("The value of a and b after calculation is:" +c);
+
+
+		}
+		function subtract(){
+
+
+		var a=document.getElementById('v1').value;
+		var b=document.getElementById('v2').value;
+		var c= +a - +b;
+		 document.write("The value of a and b after calculation is:" +c);
+
+
+		}
+		function divide(){
+
+
+		var a=document.getElementById('v1').value;
+		var b=document.getElementById('v2').value;
+		var c= +a / +b;
+		 document.write("The value of a and b after calculation is:" +c);
+
+
+		}
+		function multiply(){
+
+
+		var a=document.getElementById('v1').value;
+		var b=document.getElementById('v2').value;
+		var c= +a * +b;
+		 document.write("The value of a and b after calculation is:" +c);
+
+
+		}
+        function Sqrt(){
+
+
+		var a=document.getElementById('v1').value;
+
+		var b=Math.sqrt(a);
+
+		document.write(b);
+		
+
+
+		}
+          function Cos(){
+
+
+		var a=document.getElementById('v1').value;
+
+		var b=Math.cos(a);
+
+		document.write(b);
+		
+
+
+		}
+		  function sin(){
+
+
+		var a=document.getElementById('v1').value;
+
+		var b=Math.sin(a);
+
+		document.write(b);
+		
+
+
+		}
+		 function asin(){
+
+
+		var a=document.getElementById('v1').value;
+
+		var b=Math.asin(a);
+
+		document.write(b);
+		
+
+
+		}
+		 function tan(){
+
+
+		var a=document.getElementById('v1').value;
+
+		var b=Math.tan(a);
+
+		document.write(b);
+		
+
+
+		}
+		 function log(){
+
+
+		var a=document.getElementById('v1').value;
+
+		var b=Math.log2(a);
+
+		document.write(b);
+		
+
+
+		}
+		 function log10(){
+
+
+		var a=document.getElementById('v1').value;
+
+		var b=Math.log10(a);
+
+		document.write(b);
+		
+
+
+		}
+		function ceil(){
+
+
+		var a=document.getElementById('v1').value;
+
+		var b=Math.ceil(a);
+
+		document.write(b);
+		
+
+
+		}
+		function floor(){
+
+
+		var a=document.getElementById('v1').value;
+
+		var b=Math.floor(a);
+
+		document.write(b);
+		
+
+
+		}
+		function fround(){
+
+
+		var a=document.getElementById('v1').value;
+
+		var b=Math.fround(a);
+
+		document.write(b);
+		
+
+
+		}
+		function Min(){
+
+
+		var a=document.getElementById('v1').value;
+		var b=document.getElementById('v2').value;
+
+		var c=Math.min(a,b);
+
+		document.write(c);
+		
+
+
+		}
+	  function Max(){
+
+
+		var a=document.getElementById('v1').value;
+		var b=document.getElementById('v2').value;
+
+		var c=Math.max(a,b);
+
+		document.write(c);
+		
+
+
+		}
+		 function pow(){
+
+
+		var a=document.getElementById('v1').value;
+		var b=document.getElementById('v2').value;
+
+		var c=Math.pow(a,b);
+
+		document.write(c);
+		
+
+
+		}
+		 function area(){
+
+
+		var a=document.getElementById('v1').value;
+
+		var b=Math.PI;
+
+		var c= b * Math.sqrt(a);
+
+		document.write(c);
+		
+
+
+		}
+		 function Circum(){
+
+
+		var a=document.getElementById('v1').value;
+
+		var b=2 * Math.PI;
+
+		var c=b * a;
+
+		document.write(c);
+		
+
+
+		}
+
+
+        
+
+
+	</script>
+</body>
+</html>
